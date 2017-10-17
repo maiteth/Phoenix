@@ -1,44 +1,36 @@
 @import '../css/variables.scss';
-header {
+phoenix-logo {
     display: flex;
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    padding: 0px 30px;
+    width: 30%;
+    height: 100%;
     align-items: center;
-    justify-content: space-between;
-    background-color: hsla(10, 61%, 100%, 0.75);
-    box-shadow: 1px 2px 5px $shadowColor;
-    phoenix-logo {
-        display: flex;
-        width: 30%;
-        height: 100%;
-        align-items: center;
-        >img {
-            width: 85px;
-            margin-right: 20px;
-        }
+    >img {
+        width: 85px;
+        margin: 20px;
     }
-    phoenix-menu {
+}
+
+phoenix-menu {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    a {
         display: flex;
-        width: 30%;
+        width: 150px;
         height: 100%;
+        padding: 0px 20px;
+        text-decoration: none;
         align-items: center;
-        a {
-            display: flex;
-            width: 150px;
-            height: 100%;
+        justify-content: center;
+        color: $textColor;
+        font-size: 22px;
+        &:hover,
+        &:focus {
+            cursor: pointer;
             text-decoration: none;
-            align-items: center;
-            justify-content: center;
+            background-color: transparentize($themeColor, 0.3);
             color: $textColor;
-            font-size: 22px;
-            &:hover {
-                cursor: pointer;
-                text-decoration: none;
-                color: $textColor;
-                background-color: $themeColor;
-            }
         }
     }
 }

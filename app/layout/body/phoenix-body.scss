@@ -1,0 +1,27 @@
+@import '../css/variables.scss';
+img {
+    // max-width: 100%;
+    margin: 100px;
+}
+
+div {
+    a {
+        display: inline-flex;
+        width: 300px;
+        height: 80px;
+        margin: 0px 20px;
+        border: 5px solid transparentize($themeColor, 0.5);
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        color: $textColor;
+        font-size: 22px;
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            text-decoration: none;
+            background-color: transparentize($themeColor, 0.7);
+            color: $textColor;
+        }
+    }
+}
