@@ -14,7 +14,7 @@ app.run(function ($rootScope) {
     console.log('angularElt', angular.element);
 });
 
-import phoenixLayoutUrl from './tmpl/phoenix-layout.html';
-app.component('phoenixLayout', {
-    template: phoenixLayoutUrl
+import phoenixHeaderUrl from './layout/tmpl/phoenix-header.html';
+app.component('phoenixHeader', {
+    template: phoenixHeaderUrl
 });
