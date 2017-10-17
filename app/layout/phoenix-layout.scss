@@ -1,0 +1,43 @@
+@import '../css/variables.scss';
+header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 5px $shadowColor;
+    phoenix-logo {
+        display: flex;
+        width: 30%;
+        height: 100%;
+        align-items: center;
+        >img {
+            width: 85px;
+            margin-right: 20px;
+        }
+    }
+    phoenix-menu {
+        display: flex;
+        width: 30%;
+        height: 100%;
+        align-items: center;
+        a {
+            display: flex;
+            width: 150px;
+            height: 100%;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            color: $textColor;
+            font-size: 22px;
+            &:hover {
+                cursor: pointer;
+                text-decoration: none;
+                color: $textColor;
+                background-color: $themeColor;
+            }
+        }
+    }
+}

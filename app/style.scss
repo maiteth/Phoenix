@@ -1,6 +1,13 @@
-$primaryColor: hsl(0, 100%, 20%);
+@import './css/variables.scss';
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: white;
-    color: $primaryColor;
+    display: block;
+    position: relative;
+    color: $textColor;
 }
