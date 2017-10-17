@@ -15,6 +15,7 @@
   "license": "ISC",
   "homepage": "git@github.com:maiteth/Phoenix.git",
   "dependencies": {
+    "@uirouter/angularjs": "^1.0.8",
     "angular": "^1.6.4",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
