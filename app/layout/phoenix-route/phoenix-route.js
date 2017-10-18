@@ -3,8 +3,8 @@ import '@uirouter/angularjs';
 import './phoenix-route.scss';
 
 import homeHtml from './home/home.html';
-import traductionsHtml from './traductions/traductions.html';
-import synthesesHtml from './syntheses/syntheses.html';
+import planningHtml from './planning/planning.html';
+import gallerieHtml from './gallerie/gallerie.html';
 import aProposHtml from './a-propos/a-propos.html';
 
 const app = angular.module('phoenix-route', ['ui.router']);
@@ -19,15 +19,15 @@ app.config(function ($locationProvider, $stateProvider, $urlRouterProvider) {
 	});
 
 	$stateProvider.state({
-		name: 'traductions',
-		url: '/traductions',
-		template: traductionsHtml,
+		name: 'planning',
+		url: '/planning',
+		template: planningHtml,
 	});
 
 	$stateProvider.state({
-		name: 'syntheses',
-		url: '/syntheses',
-		template: synthesesHtml,
+		name: 'gallerie',
+		url: '/gallerie',
+		template: gallerieHtml,
 	});
 
 	$stateProvider.state({

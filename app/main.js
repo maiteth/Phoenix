@@ -10,6 +10,6 @@ import './style.scss';
 import './layout/phoenix-layout.js';
 
 // import intelligence module
-import './intelligence/phoenix-route/phoenix-route.js';
+import './layout/phoenix-route/phoenix-route.js';
 
 const app = angular.module('main', ['phoenix-layout', 'phoenix-route']);
