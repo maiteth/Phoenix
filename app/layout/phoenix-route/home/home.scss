@@ -14,12 +14,14 @@ phoenix-body {
             align-items: center;
             justify-content: center;
             color: $textColor;
+            background-color: transparentize($themeColor, 0.8);
+            
             font-size: 22px;
             &:hover,
             &:focus {
                 cursor: pointer;
                 text-decoration: none;
-                background-color: transparentize($themeColor, 0.7);
+                background-color: transparentize($themeColor, 0.5);
                 color: $textColor;
             }
         }
