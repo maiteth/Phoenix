@@ -8,6 +8,7 @@ import gallerieHtml from './gallerie/gallerie.html';
 import aProposHtml from './a-propos/a-propos.html';
 import liveHtml from './live/live.html';
 import videosHtml from './videos/videos.html';
+import projetsHtml from './projets/projets.html';
 
 const app = angular.module('phoenix-route', ['ui.router']);
 
@@ -48,6 +49,12 @@ app.config(function ($locationProvider, $stateProvider, $urlRouterProvider) {
 		name: 'videos',
 		url: '/videos',
 		template: videosHtml,
+	});
+
+	$stateProvider.state({
+		name: 'projets',
+		url: '/projets',
+		template: projetsHtml,
 	});
 
 	$urlRouterProvider.otherwise('/');
