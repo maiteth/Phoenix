@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:maiteth/Phoenix.git"
+    "url": "git+git@github.com:maiteth/projets-phoenix.git"
   },
   "author": "MaiteTh",
   "license": "ISC",
-  "homepage": "git@github.com:maiteth/Phoenix.git",
+  "homepage": "ggit@github.com:maiteth/projets-phoenix.git",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.8",
     "angular": "^1.6.4",
